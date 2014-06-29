@@ -24,7 +24,7 @@ cd new_app_path
 bin/install.sh
 ```
 
-Note that `bin/install.sh` contains 3 commands which use *sudo* in order to install yeoman and compass globally. If you don't want to do this (you don't actually need yeoman for this app) you can comment those lines out before running, though you'll need to be sure you have all the prerequisites yourself.
+> Note that `bin/install.sh` contains 3 commands which use *sudo* in order to install yeoman and compass globally. If you don't want to do this (you don't actually need yeoman for this app) you can comment those lines out before running, though you'll need to be sure you have all the prerequisites yourself.
 
 That's it! `grunt bwatch` should still be running and doing the livereloading.
 
