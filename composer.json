@@ -1,6 +1,6 @@
 {
-	"name": "dlancea/appname",
-	"description": "Project description.",
+	"name": "silex-yeoman-angular-skeleton",
+	"description": "This is a skeleton which runs a small test app using Silex and Yeoman (specifically the Angular/Bootstrap generator) including Bower and Grunt, with an Angular frontend.",
 	"autoload": {
 		"psr-4": {
 			"AppName\\": "src/"
@@ -13,5 +13,5 @@
 		"php-activerecord/php-activerecord": "dev-master",
 		"symfony/templating": "~2.3"
 	},
-  "minimum-stability": "stable"
+	"minimum-stability": "stable"
 }
