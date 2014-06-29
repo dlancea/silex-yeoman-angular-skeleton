@@ -16,7 +16,6 @@ generator) including Bower and Grunt, with an Angular frontend. It sets up:
 
 The skeleton assumes you're using apache, and have ruby and node.js installed. 
 
-
 ## Installation
 
 ```
@@ -33,7 +32,6 @@ You do not need to create a subdomain for this app to work, just load the *web/*
 
 ### Login
 Username is "user", password is "password"
-
 
 ## Customize
 To make this app your own, you'll need to replace the generic "app name" in a few files:
@@ -65,8 +63,8 @@ yo angular:controller [new_controller]
 The `grunt serve` command in grunt doesn't do much since the server side is handled by apache. However, there's a 
 `grunt bwatch` which will build the server side (copy files, compile sass, etc.) and start a Livereload *watch* session. 
 
-
 ## Todo
+
 - Make example app CRUDdier. The Data controller has actions and routes for CRUD, but they
 aren't being used in the UI.
 - Better user system - full CRUD for users.
