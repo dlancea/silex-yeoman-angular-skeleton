@@ -19,7 +19,7 @@ The skeleton assumes you're using apache, and have ruby and node.js installed.
 ## Installation
 
 ```
-composer create-project dlancea/silex-yeoman-skeleton new_app_path
+composer create-project dlancea/silex-yeoman-angular-skeleton new_app_path
 cd new_app_path
 bin/install.sh
 ```
