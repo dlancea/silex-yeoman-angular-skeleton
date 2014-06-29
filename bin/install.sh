@@ -6,7 +6,7 @@
 sudo npm install -g yo
 
 sudo gem update --system
-gem install compass
+sudo gem install compass
 
 # Program setup
 cp app/config/config.example.php app/config/config.php
