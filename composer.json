@@ -1,6 +1,7 @@
 {
 	"name": "dlancea/silex-yeoman-angular-skeleton",
 	"description": "This is a skeleton which runs a small test app using Silex and Yeoman (specifically the Angular/Bootstrap generator) including Bower and Grunt, with an Angular frontend.",
+	"license": "MIT",
 	"autoload": {
 		"psr-4": {
 			"AppName\\": "src/"
