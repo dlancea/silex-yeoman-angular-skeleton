@@ -19,12 +19,12 @@ The skeleton assumes you're using apache, and have ruby and node.js installed.
 ## Installation
 
 ```
-composer create-project dlancea/silex-yeoman-skeleton [app_path]
+composer create-project dlancea/silex-yeoman-skeleton new_app_path
+cd new_app_path
+bin/install.sh
 ```
 
-then run `bin/install.sh`. This will require sudo to install yeoman globally. If you don't want to do this 
-(you don't actually need yeoman for this app) you can just run commands from that file manually, though you'll
-need to be sure you have all the prerequisites yourself.
+Note that `bin/install.sh` contains 3 commands which use *sudo* in order to install yeoman and compass globally. If you don't want to do this (you don't actually need yeoman for this app) you can comment those lines out before running, though you'll need to be sure you have all the prerequisites yourself.
 
 That's it! `grunt bwatch` should still be running and doing the livereloading.
 
