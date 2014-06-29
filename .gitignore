@@ -1,0 +1,14 @@
+/vendor/
+/app/logs/AppName.log
+/app/config/config.php
+
+composer.lock
+
+node_modules
+dist
+.tmp
+.sass-cache
+/web/bower_components
+
+/web/styles/main.css
+/web/styles/fonts

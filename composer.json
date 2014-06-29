@@ -1,0 +1,17 @@
+{
+	"name": "dlancea/appname",
+	"description": "Project description.",
+	"autoload": {
+		"psr-4": {
+			"AppName\\": "src/"
+		}
+	},
+	"require": {
+		"silex/silex": "~1.1",
+		"symfony/security": "~2.3",
+		"monolog/monolog": "~1.0",
+		"php-activerecord/php-activerecord": "dev-master",
+		"symfony/templating": "~2.3"
+	},
+  "minimum-stability": "stable"
+}

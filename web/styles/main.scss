@@ -1,0 +1,13 @@
+$icon-font-path: "../styles/fonts/";
+
+// @import 'bootstrap-sass-official/vendor/assets/stylesheets/bootstrap';
+
+// bower:scss
+@import "../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap.scss";
+// endbower
+
+// @import "styles/more.scss";
+
+body {
+	padding-top: 50px;
+}

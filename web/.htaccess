@@ -1,0 +1,12 @@
+# Disable apache options
+Options None
+# Added FollowSymLinks for RewriteRule and web/vendors directory
+Options +FollowSymLinks
+
+<IfModule mod_rewrite.c>
+    Options -MultiViews
+
+    RewriteEngine On
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [QSA,L]
+</IfModule>
