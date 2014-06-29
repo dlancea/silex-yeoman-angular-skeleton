@@ -26,7 +26,7 @@ then run `bin/install.sh`. This will require sudo to install yeoman globally. If
 (you don't actually need yeoman for this app) you can just run commands from that file manually, though you'll
 need to be sure you have all the prerequisites yourself.
 
-That's it! 'grunt bwatch' should still be running and doing the livereloading.
+That's it! `grunt bwatch` should still be running and doing the livereloading.
 
 You do not need to create a subdomain for this app to work, just load the *web/* directory being served by apache in your browser.
 
