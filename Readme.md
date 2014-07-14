@@ -22,6 +22,7 @@ The skeleton assumes you're using apache, and have ruby and node.js installed.
 composer create-project dlancea/silex-yeoman-angular-skeleton new_app_path
 cd new_app_path
 bin/install.sh
+cp app/config/config.example.php app/config/config.php
 ```
 
 > Note that `bin/install.sh` contains 3 commands which use *sudo* in order to install yeoman and compass globally. If you don't want to do this (you don't actually need yeoman for this app) you can comment those lines out before running, though you'll need to be sure you have all the prerequisites yourself.
